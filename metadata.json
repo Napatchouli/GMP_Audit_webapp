@@ -1,0 +1,6 @@
+{
+  "name": "FactoryAssess Pro - Industrial Inspection & Compliance",
+  "description": "Comprehensive factory assessment and compliance inspection platform with flat-design mobile & desktop UI, multi-officer e-signatures, Checklist A & B scoring, visit calendar, and monitoring dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

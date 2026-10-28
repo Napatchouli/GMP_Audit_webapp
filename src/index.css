@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #00a8ff;
+  --secondary: #f5f6fa;
+  --accent: #e84118;
+  --success: #4cd137;
+  --warning: #fbc531;
+  --dark: #2f3640;
+  --muted: #718093;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: #f5f6fa;
+  color: #2f3640;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Crisp Flat Design Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f2f6;
+}
+::-webkit-scrollbar-thumb {
+  background: #dcdde1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00a8ff;
+}
+
+@media print {
+  body {
+    background: #ffffff !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+}
